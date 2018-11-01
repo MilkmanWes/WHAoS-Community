@@ -1,0 +1,16 @@
+---
+  layout: default
+  name: PROJECT NAME
+  author: PROJECT AUTHOR
+  github: http://GITHUB URL
+  #for bots with no home page use the git url
+  url: https://HOME PAGE
+  # status can be followed by the current state such as live, beta, in dev, on fire....
+  status: Live
+  #status: In Development
+  #status: Beta
+  # Provide version if applicable and the latest release date
+  release: v1 Oct 2018
+---
+DESCRIBE YOUR PROJECT USING MARKDOWN
+Add the completed file to _projects and make a pull req to MilkmanWes
