@@ -1,1 +1,28 @@
 theme: jekyll-theme-midnight
+##The website title
+name: WH Age of Sigmar TCG Community Projects
+##Markdown processor
+markdown: kramdown
+##syntax highlighter. change it to pygments
+highlighter: pygments
+
+##define base_url for valid usage in sitemap.xml and robots.txt
+base_url: https://milkmanwes.github.io/WHAoS-Community
+sass:
+  sass_dir: _sass
+  style: :compressed
+paginate: 5
+paginate_path: "page:num"
+##The website description (to be used in meta tags)
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a directory of community created and developed projects for the TCG
+  Warhammer Age of Sigmar.
+##Some frequently used keywords on your website
+keywords: some, relevant, keywords, for, usage, in metatags
+gitrepo: https://github.com/MilkmanWes/WHAoS-Community
+gitreponame: WHAoS-Community
+
+#Collections
+collections:
+  projects:
+    output: true
