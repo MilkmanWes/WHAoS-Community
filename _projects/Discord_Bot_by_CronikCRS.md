@@ -1,6 +1,6 @@
 ---
   layout: default
-  name: Discord Bot
+  name: TheBlackLibrary - Discord Bot
   author: CronikCRS
   #github: http://GITHUB URL
   #for bots with no home page use the git url
