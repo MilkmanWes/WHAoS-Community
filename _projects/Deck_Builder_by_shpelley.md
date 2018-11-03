@@ -10,6 +10,6 @@
   #status: In Development
   #status: Beta
   # Provide version if applicable and the latest release date
-  #release: v1 Oct 2018
+  release: v1 Oct 2018
 ---
 Build and share decks from a web browser. Can generate a deck URL that can be imported into the mobile app.
