@@ -4,7 +4,7 @@
   author: CronikCRS
   #github: http://GITHUB URL
   #for bots with no home page use the git url
-  #url: https://HOME PAGE
+  homepage: #
   # status can be followed by the current state such as live, beta, in dev, on fire....
   #status: Live
   #status: In Development
