@@ -10,7 +10,7 @@ permalink: /
   <hr>
   {% if project.homepage %}
     <h2><a href="{{ project.homepage }}">{{ project.name }}</a></h2>
-  {% elseif project.github %}
+  {% elsif project.github %}
     <h2><a href="{{ project.github }}">{{ project.name }}</a></h2>
   {% else %}
     <h2>{{ project.name }}</h2>
