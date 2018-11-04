@@ -18,7 +18,7 @@ permalink: /
   <h4>by: {{ project.author }}</h4>
   <p>{{ project.content | markdownify }}</p>
   <h6>{{ project.status }} | Release: {{ project.release }}
-  {% elseif project.github %}
+  {% if project.github %}
     <a href="{{ project.github }}">Github</a>
   {% endif %}
   </h6>
