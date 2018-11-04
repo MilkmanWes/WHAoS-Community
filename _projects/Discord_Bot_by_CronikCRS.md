@@ -2,7 +2,7 @@
   layout: default
   name: TheBlackLibrary - Discord Bot
   author: CronikCRS
-  #github: http://GITHUB URL
+  github: https://github.com/thatmatthallett/Discord-Bot-TheBlackLibrary
   #for bots with no home page use the git url
   homepage: #
   # status can be followed by the current state such as live, beta, in dev, on fire....
