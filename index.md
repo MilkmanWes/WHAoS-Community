@@ -8,13 +8,13 @@ permalink: /
 <br>
 {% for project  in site.projects %}
   <hr>
+  <h2>
   {% if project.homepage %}
-    <h2><a href="{{ project.homepage }}">{{ project.name }}</a></h2>
-  {% elsif project.github %}
-    <h2><a href="{{ project.github }}">{{ project.name }}</a></h2>
+    <a href="{{ project.homepage }}">{{ project.name }}</a>
   {% else %}
-    <h2>{{ project.name }}</h2>
+    {{ project.name }}
   {% endif %}
+  </h2>
   <h4>by: {{ project.author }}</h4>
   <p>{{ project.content | markdownify }}</p>
   <h6>{{ project.status }} | Release: {{ project.release }}
