@@ -4,7 +4,7 @@
   author: CronikCRS
   github: https://github.com/thatmatthallett/Discord-Bot-TheBlackLibrary
   #for bots with no home page use the git url
-  link: https://github.com/thatmatthallett/Discord-Bot-TheBlackLibrary
+  homepage: https://github.com/thatmatthallett/Discord-Bot-TheBlackLibrary
   # status can be followed by the current state such as live, beta, in dev, on fire....
   status: Beta
   # Provide version if applicable and the latest release date

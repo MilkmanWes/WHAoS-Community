@@ -4,7 +4,7 @@
   author: MilkmanWes
   github: https://github.com/MilkmanWes/WHC_TCG_Card_Bot
   #for bots with no home page use the git url
-  link: https://github.com/MilkmanWes/WHC_TCG_Card_Bot
+  homepage: https://github.com/MilkmanWes/WHC_TCG_Card_Bot
   status: Live #In Development, Beta
   release: v1 Oct 2018 # version and date
 ---

@@ -24,10 +24,10 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% if post.homepage %}
+        <a href="{{ post.homepage }}">{{ title }}</a>
       {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {{ title }}
       {% endif %}
     </h2>
     <h3>by {{ post.author }}</h3>
