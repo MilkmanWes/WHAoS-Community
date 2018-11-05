@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: collection
 title: Project List
+collection: projects
 permalink: /
 ---
 
