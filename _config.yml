@@ -19,9 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a directory of community created and developed projects for the TCG
   Warhammer Age of Sigmar.
 ##Some frequently used keywords on your website
-keywords: some, relevant, keywords, for, usage, in metatags
+keywords: warhammer, tcg, sigmar, community, projects
 gitrepo: https://github.com/MilkmanWes/WHAoS-Community
 gitreponame: WHAoS-Community
+
+plugins:
+  - jekyll-include-cache
 
 #Collections
 collections:
