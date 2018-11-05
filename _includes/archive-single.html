@@ -34,9 +34,9 @@
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 240 }}</p>{% endif %}
-    <h6>{{ project.status }} | Release: {{ project.release }}
-    {% if project.github %}
-      <a href="{{ project.github }}">Github</a>
+    <h6>{{ post.status }} | Release: {{ post.release }}
+    {% if post.github %}
+      <a href="{{ post.github }}">Github</a>
     {% endif %}
   </article>
 </div>
