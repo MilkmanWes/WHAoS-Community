@@ -5,5 +5,3 @@ collection: projects
 permalink: /test/
 author_profile: false
 ---
-
-Project List
